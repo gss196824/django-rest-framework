@@ -552,7 +552,7 @@ For further examples on `HiddenField` see the [validators](validators.md) docume
 
 ---
 
-**Note:** `HiddenField()` does not appear in `partial=True` serializer (when making `PATCH` request). This behavior might change in future, follow updates on [github discussion](https://github.com/encode/django-rest-framework/discussions/8259). 
+**Note:** `HiddenField()` does not appear in `partial=True` serializer (when making `PATCH` request).
 
 ---
 
@@ -857,4 +857,4 @@ The [django-rest-framework-hstore][django-rest-framework-hstore] package provide
 [django-hstore]: https://github.com/djangonauts/django-hstore
 [python-decimal-rounding-modes]: https://docs.python.org/3/library/decimal.html#rounding-modes
 [django-current-timezone]: https://docs.djangoproject.com/en/stable/topics/i18n/timezones/#default-time-zone-and-current-time-zone
-[django-docs-select-related]: https://docs.djangoproject.com/en/3.1/ref/models/querysets/#django.db.models.query.QuerySet.select_related
+[django-docs-select-related]: https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.select_related
